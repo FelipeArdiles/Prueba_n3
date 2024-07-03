@@ -19,9 +19,18 @@ def registrar_pedido():
                 print("ERROR! La longitud del nombre no puede ser menor a 3")
             else:
                 break
-
-    direccion = input("ingrese su dirección: ")
-    comuna = input("Ingrese su comuna: ")
+    while True:
+            direccion=input("Ingrese dirección: ")
+            if len(nombre)<1:
+                    print("ERROR! No puede dejar este campo en blanco")
+            else:
+                break
+    while True:
+            comuna=input("Ingrese comuna: ")
+            if len(nombre)<1:
+                    print("ERROR! No puede dejar este campo en blanco")
+            else:
+                break
 
     while True: 
         os.system("cls")
